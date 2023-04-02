@@ -36,4 +36,8 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest
+        # pytest
+        /home/herbew/envsas/bin/pytest /home/herbew/server_as_service/tests/test_service_listerner.py
+    - name: Service Listener
+      run: |
+        /home/herbew/envsas/bin/python3 /home/herbew/server_as_service/src/service_listener.py
