@@ -38,6 +38,4 @@ jobs:
       run: |
         # pytest
         /home/herbew/envsas/bin/pytest /home/herbew/server_as_service/tests/test_service_listerner.py
-    - name: Service Listener
-      run: |
-        /home/herbew/envsas/bin/python3 /home/herbew/server_as_service/src/service_listener.py
+   
