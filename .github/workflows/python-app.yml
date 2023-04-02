@@ -40,4 +40,4 @@ jobs:
         /home/herbew/envsas/bin/pytest /home/herbew/server_as_service/tests/test_service_listerner.py
     - name: Service Listener
       run: |
-      sudo systemctl restart service_listener
+        sudo systemctl restart service_listener
